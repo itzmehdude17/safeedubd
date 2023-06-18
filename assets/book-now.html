@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--shortcut-icon-title-->
+        <link rel="shortcut icon" href="./images/safe-education-consultancy-icon.svg"/>
+        <title>Book Now | Safe Education Consultancy</title>
+
+        <!-- font awsome link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- css link-->
+        <link rel="stylesheet" href="./css/style.css"/>
+
+    </head>
+    <body>
+        <!-- book-now section start -->
+        <section class="book-now" id="book-now">
+
+            <h2 class="heading">Book <span style="color: rgb(34, 163, 220)">Now</span> </h2>
+            <div class="row">
+                <div class="image">
+                    <img src="./images/online-survey.jpg" alt="book-now-image">
+                </div>
+                
+                <form action="process.php" method="post">
+
+                    <h3>Book a <span style="color: rgb(34, 163, 220)">free</span> consultation session.</h3>
+
+                    <div class="box">
+                        <i class="fa fa-user-circle"></i>
+                        <input type="text" placeholder="Your Name" name="name" required>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Your Email" name="email" required>
+                    </div>
+                    
+                    <div class="box">
+                        <i class="fa-solid fa-phone"></i>
+                        <input type="number" placeholder="Your Phone" name="phone" required>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <input type="date">
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <input type="text" placeholder="Subject" name="subject" required>
+                    </div>
+
+                    <div class="box">
+                        <!--<i class="fa-solid fa-message"></i>-->
+                        <textarea type="text" placeholder="Description" name="description" required rows="5" cols="20"></textarea>
+                    </div>
+
+                     <button type="submit" class="submit-btn"> Submit <i class="fa-sharp fa-solid fa-circle-check"></i> </button>
+
+                </form>
+            </div>
+        </section>
+        <!-- book-now section end -->
+
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
